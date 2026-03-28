@@ -1,24 +1,25 @@
 # Atividade de Gerenciamento de Sistemas Linux
 
-[cite_start]**Estudante:** Antônio Augusto Boaventura Mariano [cite: 1]  
-[cite_start]**Prontuário:** BV3054195 [cite: 1]  
-[cite_start]**Disciplina:** Administração de Redes de Computadores [cite: 1]  
-[cite_start]**Professor:** Gaio [cite: 1]  
-[cite_start]**Módulo:** 3º Semestre [cite: 1]  
+**Nome:** Antônio Augusto Boaventura Mariano [cite: 1]  
+**Prontuário:** BV3054195 [cite: 1]  
+**Disciplina:** Administração de Redes de Computadores [cite: 1]  
+**Professor:** Gaio [cite: 1]  
+**Módulo:** 3º Semestre [cite: 1]  
 
 ---
 
 ## 1. Introdução
-[cite_start]Nesta atividade, exploramos o uso do **shell (interpretador de comandos)** do Linux, fundamental para o gerenciamento de redes, serviços e aplicativos[cite: 1]. [cite_start]Abaixo, apresentamos a execução de comandos básicos e intermediários realizados em um terminal Bash[cite: 1].
+Nesta atividade, exploramos o uso do **shell (interpretador de comandos)** do Linux, fundamental para o gerenciamento de redes, serviços e aplicativos[cite: 1].
+Abaixo, apresentamos a execução de comandos básicos e intermediários realizados em um terminal Bash[cite: 1].
 
 ---
 
 ## 2. Comandos de Navegação e Diretórios
 
 ### Comandos `cd` (Change Directory)
-* [cite_start]**cd**: Altera o diretório atual[cite: 1].
-* [cite_start]**cd ..**: Move um nível acima na estrutura de diretórios[cite: 1].
-* [cite_start]**cd -**: Retorna ao diretório anterior[cite: 1].
+**cd**: Altera o diretório atual[cite: 1].
+**cd ..**: Move um nível acima na estrutura de diretórios[cite: 1].
+**cd -**: Retorna ao diretório anterior[cite: 1].
 
 ubuntu@ubuntu: $ pwd
 /home/ubuntu
@@ -31,24 +32,24 @@ ubuntu@ubuntu: $ cd Downloads/
 ## 3. Gerenciamento de Arquivos e Privilégios
 
 ### `sudo` e `mkdir`
-* [cite_start]**sudo**: Executa comandos com privilégios de superusuário (root)[cite: 1].
-* [cite_start]**mkdir**: Cria uma nova pasta[cite: 1].
+**sudo**: Executa comandos com privilégios de superusuário (root)[cite: 1].
+**mkdir**: Cria uma nova pasta[cite: 1].
 
 vboxuser@ubunto2026:~/Documents$ sudo mkdir marcelo
 [sudo] password for vboxuser: 
 vboxuser@ubunto2026:~/Documents$ ls
 marcelo
 
-> [cite_start]**Observação sobre o comando `su`**: Utilizado para alterar o usuário atual para root, porém não foi possível executá-lo no ambiente Virtual Box User – Ubuntu[cite: 1].
+**Observação sobre o comando `su`**: Utilizado para alterar o usuário atual para root, porém não foi possível executá-lo no ambiente Virtual Box User – Ubuntu[cite: 1].
 
 ---
 
 ## 4. Administração do Sistema
 
 ### `systemctl`
-[cite_start]Gerencia os serviços do sistema, permitindo iniciar, parar ou verificar o status de unidades[cite: 1].
+Gerencia os serviços do sistema, permitindo iniciar, parar ou verificar o status de unidades[cite: 1].
 
-[cite_start]*(Descrição: Saída do comando systemctl listando diversos dispositivos e automounts)* [cite: 1]
+*(Descrição: Saída do comando systemctl listando diversos dispositivos e automounts)* [cite: 1]
 
 vboxuser@ubunto2026:~/Documents$ systemctl
 UNIT
@@ -64,10 +65,10 @@ UNIT
 
 ## 5. Gerenciamento de Pacotes (`apt`)
 
-* [cite_start]**apt update**: Atualiza a lista de pacotes disponíveis nos repositórios[cite: 1].
-* [cite_start]**apt install [pacote]**: Instala novos softwares[cite: 1].
+**apt update**: Atualiza a lista de pacotes disponíveis nos repositórios[cite: 1].
+**apt install [pacote]**: Instala novos softwares[cite: 1].
 
-[cite_start]*(Descrição: O terminal exibe a instalação do git e suas dependências)* [cite: 1]
+*(Descrição: O terminal exibe a instalação do git e suas dependências)* [cite: 1]
 
 vboxuser@ubunto2026:~/Documents$ sudo apt upgrade
 Reading package lists... Done
@@ -97,9 +98,9 @@ After this operation, 24.5 MB of additional disk space will be used.
 ## 6. Configuração de Rede e DNS
 
 ### `ip address` (ou `ip a`)
-[cite_start]Exibe as interfaces de rede e seus respectivos endereços IP[cite: 1].
+Exibe as interfaces de rede e seus respectivos endereços IP[cite: 1].
 
-[cite_start]*(Descrição: Mostra as interfaces 'lo' e 'enp0s3' com o IP 10.0.2.15)* [cite: 1]
+*(Descrição: Mostra as interfaces 'lo' e 'enp0s3' com o IP 10.0.2.15)* [cite: 1]
 
 vboxuser@ubunto2026:~/Documents$ ip address
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
@@ -110,9 +111,9 @@ vboxuser@ubunto2026:~/Documents$ ip address
     inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
 
 ### `nslookup`
-[cite_start]Ferramenta utilizada para verificar informações de DNS[cite: 1].
+Ferramenta utilizada para verificar informações de DNS[cite: 1].
 
-[cite_start]*(Descrição: Tentativa de consulta ao domínio marcelo6427.github.io/Projeto-SoftJr)* [cite: 1]
+*(Descrição: Tentativa de consulta ao domínio marcelo6427.github.io/Projeto-SoftJr)* [cite: 1]
 
 vboxuser@ubunto2026:~/Documents$ nslookup
 > marcelo6427.github.io/Projeto-SoftJr
@@ -126,10 +127,10 @@ Address:	127.0.0.53#53
 ## 7. Gerenciamento de Usuários
 
 ### `adduser` e `passwd`
-* [cite_start]**adduser**: Cria um novo usuário no sistema[cite: 1].
-* [cite_start]**passwd**: Altera a senha de um usuário[cite: 1].
+**adduser**: Cria um novo usuário no sistema[cite: 1].
+**passwd**: Altera a senha de um usuário[cite: 1].
 
-[cite_start]*(Descrição: O sistema solicita nova senha e informações adicionais para o novo perfil)* [cite: 1]
+*(Descrição: O sistema solicita nova senha e informações adicionais para o novo perfil)* [cite: 1]
 
 vboxuser@ubunto2026:~/Documents$ sudo adduser marcelo
 info: Adding user `marcelo' ...
