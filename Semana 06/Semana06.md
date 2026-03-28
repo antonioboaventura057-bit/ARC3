@@ -14,6 +14,7 @@
 
 ## 1. Introdução
 Nesta atividade, exploramos o uso do **shell (interpretador de comandos)** do Linux, fundamental para o gerenciamento de redes, serviços e aplicativos.
+
 Abaixo, apresentamos a execução de comandos básicos e intermediários realizados em um terminal Bash.
 
 ---
