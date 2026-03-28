@@ -22,8 +22,11 @@ Abaixo, apresentamos a execução de comandos básicos e intermediários realiza
 ## 2. Comandos de Navegação e Diretórios
 
 ### Comandos `cd` (Change Directory)
+
 **cd**: Altera o diretório atual.
+
 **cd ..**: Move um nível acima na estrutura de diretórios.
+
 **cd -**: Retorna ao diretório anterior.
 
 ubuntu@ubuntu: $ pwd
@@ -37,7 +40,9 @@ ubuntu@ubuntu: $ cd Downloads/
 ## 3. Gerenciamento de Arquivos e Privilégios
 
 ### `sudo` e `mkdir`
+
 **sudo**: Executa comandos com privilégios de superusuário (root).
+
 **mkdir**: Cria uma nova pasta.
 
 vboxuser@ubunto2026:~/Documents$ sudo mkdir marcelo
@@ -52,6 +57,7 @@ marcelo
 ## 4. Administração do Sistema
 
 ### `systemctl`
+
 Gerencia os serviços do sistema, permitindo iniciar, parar ou verificar o status de unidades.
 
 *(Descrição: Saída do comando systemctl listando diversos dispositivos e automounts)*
@@ -71,6 +77,7 @@ UNIT
 ## 5. Gerenciamento de Pacotes (`apt`)
 
 **apt update**: Atualiza a lista de pacotes disponíveis nos repositórios.
+
 **apt install [pacote]**: Instala novos softwares.
 
 *(Descrição: O terminal exibe a instalação do git e suas dependências)*
@@ -103,6 +110,7 @@ After this operation, 24.5 MB of additional disk space will be used.
 ## 6. Configuração de Rede e DNS
 
 ### `ip address` (ou `ip a`)
+
 Exibe as interfaces de rede e seus respectivos endereços IP.
 
 *(Descrição: Mostra as interfaces 'lo' e 'enp0s3' com o IP 10.0.2.15)*
@@ -116,6 +124,7 @@ vboxuser@ubunto2026:~/Documents$ ip address
     inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
 
 ### `nslookup`
+
 Ferramenta utilizada para verificar informações de DNS.
 
 *(Descrição: Tentativa de consulta ao domínio marcelo6427.github.io/Projeto-SoftJr)*
@@ -132,7 +141,9 @@ Address:	127.0.0.53#53
 ## 7. Gerenciamento de Usuários
 
 ### `adduser` e `passwd`
+
 **adduser**: Cria um novo usuário no sistema.
+
 **passwd**: Altera a senha de um usuário.
 
 *(Descrição: O sistema solicita nova senha e informações adicionais para o novo perfil)*
