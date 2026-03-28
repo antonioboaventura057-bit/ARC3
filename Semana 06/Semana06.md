@@ -120,7 +120,7 @@ After this operation, 2,021 kB disk space will be freed.
 Do you want to continue? [Y/n] y
 
 
-vboxuser@ubunto2026:~/Documents$ sudo apt install git
+## vboxuser@ubunto2026:~/Documents$ sudo apt install git
 
 [sudo] password for vboxuser: 
 
@@ -217,8 +217,7 @@ Is the information correct? [Y/n] y
 info: Adding user `marcelo' to group `users' ...
 
 
-
-vboxuser@ubuntu2026:~/Documents$ sudo passwd marcelo
+## vboxuser@ubuntu2026:~/Documents$ sudo passwd marcelo
 
 New password: 
 
