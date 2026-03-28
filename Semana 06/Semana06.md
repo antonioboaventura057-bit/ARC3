@@ -1,9 +1,13 @@
 # Atividade de Gerenciamento de Sistemas Linux
 
 **Nome:** Antônio Augusto Boaventura Mariano
+
 **Prontuário:** BV3054195
+
 **Disciplina:** Administração de Redes de Computadores
+
 **Professor:** Gaio
+
 **Módulo:** 3º Semestre
 
 ---
