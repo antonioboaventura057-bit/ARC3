@@ -1,8 +1,14 @@
-GNU nano 6.2                                                         dns_check.sh                                                                  
+  GNU nano 6.2                                                        exemplo_if.sh                                                                  
 #!/bin/bash
 clear
-if [ -f "/etc/bind/named.conf.local" ] 
+if [ $USER == "root" ]
 then
-        echo "Servidor DNS instalado"
+        echo "Acesso total permitido"
 else
-        echo "Não há instalação DNS"
+        echo "Você precisa de privilégios de root"
+fi
+
+
+
+
+
