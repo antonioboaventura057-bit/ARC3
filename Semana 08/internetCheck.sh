@@ -1,8 +1,11 @@
-GNU nano 6.2                                                         dns_check.sh                                                                  
+  GNU nano 6.2                                                       internetCheck.sh                                                                
 #!/bin/bash
 clear
-if [ -f "/etc/bind/named.conf.local" ] 
+
+ping -c 3 8.8.8.8 &> /dev/null
+
+if [ $? -eq 0 ]
 then
-        echo "Servidor DNS instalado"
-else
-        echo "Não há instalação DNS"
+        echo "Conexão com a internet OK"
+fi
+
