@@ -1,5 +1,6 @@
 # 🕵️ Pesquisa Técnica: O Protocolo SNMP
 
+**Nome:** Antônio Augusto Boaventura Mariano
 **Disciplina:** Administração de Redes de Computadores (ARC)
 **Semana:** 11
 **Professor:** Gaio
@@ -190,4 +191,5 @@ BASSO, Douglas Eduardo. **Administração de Redes de Computadores**. Curitiba: 
 
 ---
 
-*Pesquisa elaborada com base na obra indicada para a disciplina de Administração de Redes de Computadores (ARC), Semana 11.*
+*Pesquisa elaborada com base na obra indicada para a disciplina de Administração de Redes de Computadores (ARC).*
+*Atividade realizada com o auxilio da Inteligência Artificial (IA) Claude.*
